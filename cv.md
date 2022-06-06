@@ -1,3 +1,3 @@
 # Alesia Sakalouskaya
-## Contacts
 ## Education
+## Contacts
