@@ -1,2 +1,5 @@
-{background: blue;
+body {
+    background-color: cadetblue;
+    height: 50px;
+    width: 50px;
 }
