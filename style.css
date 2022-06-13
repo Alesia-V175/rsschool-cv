@@ -54,6 +54,7 @@
         align-items: stretch;
     }
 
+
     .main-content .main-1 {
         width: 40%;
         background-color: #c9eaee;
@@ -62,7 +63,7 @@
         padding: 20px 30px;
     }
     
-    .main-content .photo img {
+    .main-1 .photo img {
         width: 95%;
         height: auto;
         display: block;
@@ -72,46 +73,57 @@
         border: 7px solid #ffffff;
     }
 
-    .main-content .contacts ul {
+    .main-1 .contacts ul {
         list-style-type: none;
         margin: 10px 0;
-        padding: 0 20px 0;
+        padding: 0 15px;
     }
 
-    .main-content .contacts a {
+    .main-1 .contacts a {
         color: #000000;
     }
 
-    .main-content .contacts a:hover {
+    .main-1 .contacts a:hover {
         color: #000000;
         text-decoration: underline;
+    }
+
+    .main-1 .contacts i {
+        font-size: 20px;
+        color: #016170;
     }
 
     .main-2 h1 {
         margin: 50px 0 0 0;
     }
 
-    .container .main-2 h2 {
-        color: #000000;
+    .main-2 h2 {
         background: rgba(0,224,198,0.2);
-        border-radius: 40px 10px;
-        padding: 0 20px;
+        border-radius: 40px 40px;
+        padding: 5px 20px;
+        margin: 10px 0 20px;
     }
 
-    .main-content .main-2 {
+    .main-2 {
         display: flex;
         flex-direction: column;
         padding: 10px 30px;
     }
 
-    .main-2 .projects ul{
+    .main-2 .about p,
+    .main-2 .code {
+        padding: 0 30px;
+        margin: 10px 0 10px;
+    }
+
+    .main-2 .projects ul {
         display: flex;
         align-items: center;
         justify-content: space-around;
         flex-wrap: wrap;
         list-style-type: none;
         padding: 0;
-        margin: 0;
+        margin: 30px 0 0;
     }
 
     .main-2 .projects a {
@@ -130,13 +142,10 @@
 
     .main-2 .projects p {
         padding: 0;
-        margin: 0 0 15px;
+        margin: 0 0 10px;
     }
 
-    .main-2 .code {
-    }
-
-    .footer {
+    footer {
         background-color: #016170;
         color: #ffffff;
     }
@@ -152,18 +161,18 @@
 
     footer .footer-links li {
         display: inline-block;
-        width: 30%;
+        width: 33%;
         text-align: center;
+        line-height: 0;
     }
 
-   footer .footer-links a {
-        padding: 0 10px;
-        line-height: 40px;
+    footer .footer-links a {
+        line-height: 0;
         color: #ffffff;
-       display: inline-block;
+        display: inline-block;
     }
 
-    .footer .footer-links a:hover {
+    footer .footer-links a:hover {
         color: #000000;
         text-decoration: underline;
     }
