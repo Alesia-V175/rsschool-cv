@@ -1,0 +1,179 @@
+    body {
+        margin: 0;
+        height: 100%;
+        min-width: 300px;
+        background: url("/images/flowers.jpg");
+        font-family: Verdana, sans-serif;
+        font-size: 16px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .container {
+        width: 1280px;
+        height: auto;
+        margin: 0 auto;
+        background-color: #fff;
+        line-height: 30px;
+    }
+
+    header .nav {
+        background-color: #009393;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    header .nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    header .nav li {
+        display: inline;
+    }
+
+    header .nav a {
+        padding: 14px 20px;
+        line-height: 50px;
+        color: #ffffff;
+    }
+
+    header .nav a:hover {
+        background-color: #00e0C6;
+        color: #000000;
+    }
+
+     .main-content {
+        display: flex;
+        align-items: stretch;
+    }
+
+
+    .main-content .main-1 {
+        width: 40%;
+        background-color: #c9eaee;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+    
+    .main-1 .photo img {
+        width: 95%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        border-radius: 100%;
+        border: 7px solid #ffffff;
+    }
+
+    .main-1 .contacts ul {
+        list-style-type: none;
+        margin: 10px 0;
+        padding: 0 15px;
+    }
+
+    .main-1 .contacts a {
+        color: #000000;
+    }
+
+    .main-1 .contacts a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+
+    .main-1 .contacts i {
+        font-size: 20px;
+        color: #016170;
+    }
+
+    .main-2 h1 {
+        margin: 50px 0 0 0;
+    }
+
+    .main-2 h2 {
+        background: rgba(0,224,198,0.2);
+        border-radius: 40px 40px;
+        padding: 5px 20px;
+        margin: 10px 0 20px;
+    }
+
+    .main-2 {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 30px;
+    }
+
+    .main-2 .about p,
+    .main-2 .code {
+        padding: 0 30px;
+        margin: 10px 0 10px;
+    }
+
+    .main-2 .projects ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding: 0;
+        margin: 30px 0 0;
+    }
+
+    .main-2 .projects a {
+        color: black;
+        display: inline-block;
+    }
+
+    .main-2 .projects a:hover img {
+        box-shadow: 0 0 10px 10px rgba(201, 234, 238, 1)
+    }
+
+    .main-2 .projects img {
+        width: 360px;
+        height: 205px;
+    }
+
+    .main-2 .projects p {
+        padding: 0;
+        margin: 0 0 10px;
+    }
+
+    footer {
+        background-color: #016170;
+        color: #ffffff;
+    }
+
+    footer .footer-links ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    footer .footer-links li {
+        display: inline-block;
+        width: 33%;
+        text-align: center;
+        line-height: 0;
+    }
+
+    footer .footer-links a {
+        line-height: 0;
+        color: #ffffff;
+        display: inline-block;
+    }
+
+    footer .footer-links a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+
