@@ -1,12 +1,12 @@
-![Alesia Sokolouskaya](images/photo_cv.png?raw=true) 
-# Alesia Sokolouskaya
+![Alesia Sokolovskaya](images/photo_cv.png?raw=true) 
+# Alesia Sokolovskaya
 ## *Junior Frontend Developer*
 ## Contacts
   * E-mail: [vaivasilisa@gmail.com](https://www.google.com/gmail/about/)
   * Telegram: [Alesia_Sova](https://t.me/Alesia_Sova)
   * GitHub: [Alesia-V175](https://github.com/Alesia-V175)
   * CodePen: [Alesia_V](https://codepen.io/your-work)
-  * LinkedIn: [Alesia Sokolouskaya](https://www.linkedin.com/in/%D0%B0%D0%BB%D0%B5%D1%81%D1%8F-%D1%81%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F-05656b151/)
+  * LinkedIn: [Alesia Sokolovskaya](https://www.linkedin.com/in/%D0%B0%D0%BB%D0%B5%D1%81%D1%8F-%D1%81%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F-05656b151/)
   * Discord: [Alesia (Alesia-V175)#6265](https://discordapp.com/users/913442520778821642)
 
 ## About Me
