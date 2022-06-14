@@ -54,7 +54,6 @@
         align-items: stretch;
     }
 
-
     .main-content .main-1 {
         width: 40%;
         background-color: #c9eaee;
@@ -93,8 +92,10 @@
         color: #016170;
     }
 
-    .main-2 h1 {
-        margin: 50px 0 0 0;
+    .main-2 {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 30px;
     }
 
     .main-2 h2 {
@@ -104,10 +105,10 @@
         margin: 10px 0 20px;
     }
 
-    .main-2 {
-        display: flex;
-        flex-direction: column;
-        padding: 10px 30px;
+    .main-2 .profile {
+        font-size: 1.5em;
+        padding: 20px;
+        margin: 65px 0;
     }
 
     .main-2 .about p,
@@ -170,10 +171,17 @@
         line-height: 0;
         color: #ffffff;
         display: inline-block;
+        padding: 10px 0;
     }
 
     footer .footer-links a:hover {
         color: #000000;
         text-decoration: underline;
+    }
+
+    footer .footer-links .logo {
+
+        width: 100px;
+        height: auto;
     }
 
