@@ -42,7 +42,7 @@ function isPrime(num) {
 ```
 
 ## Experience
-  * Oct 2018-May 2022 — Logistics Manager Import Department in Viptrans-spedition OOO
+  * Oct 2018 - May 2022 — Logistics Manager Import Department in Viptrans-spedition OOO
     * Attracting new customers;
     * Actively managing the sales process: negotiating, participating in business meetings, signing agreements;
     * Management of customers in CRM system;
@@ -50,14 +50,14 @@ function isPrime(num) {
     * Resolving conflict situations.
 
 
-  * Sep 2011-Sep 2018 — Part-time work at school and university
+  * Sep 2011 - Sep 2018 — Part-time work at school and university
      * 2011-2013 — Assistant in the dance club "Дыхание танца";
      * 2013-2017 — Waitress (Catering);
      * 2017 — Waitress in Texas Chicken;
      * 2017-2018 — Administrator-controller in Minsk-Arena.
 
 ## Education
-  * Sep 2014-Jan 2022 — Belarusian National Technical University
+  * Sep 2014 - Jan 2022 — Belarusian National Technical University
 ## Courses
   * Sep 2022 - Present — RS School, "JavaScript/Front-end. Stage 1";
   * June 2022 - Aug 2022 — RS School, "JavaScript/Front-end. Stage 0";
