@@ -12,7 +12,7 @@
 ## About Me
 I am Junior Frontend Developer with teamwork experience in stressful situations.
 
-My way in programming started with courses in IT-Academy and continue in RS School. At this moment was created about 5 projects and implemented about 55 tasks at Codewars, algorithmic tasks and etс.
+My way in programming started with courses in IT-Academy and continues in RS School. At this moment I have been created about 5 projects and implemented about 55 tasks at Codewars, algorithmic tasks and etс.
 
 In the near future I would like to improve my skills in JavaScript and to master TypeScript and React.
 
