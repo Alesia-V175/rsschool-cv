@@ -1,6 +1,6 @@
 ![Alesia Sokolovskaya](images/photo_cv.png?raw=true) 
 # Alesia Sokolovskaya
-## *Junior Frontend Developer*
+## *Frontend Developer*
 ## Contacts
   * E-mail: [vaivasilisa@gmail.com](https://www.google.com/gmail/about/)
   * Telegram: [Alesia_Sova](https://t.me/Alesia_Sova)
@@ -12,9 +12,10 @@
 ## About Me
 I am Junior Frontend Developer with teamwork experience in stressful situations.
 
-I enjoy creating something new, reading books, dancing, travelling and listening to music. I prefer active and healthy lifestyle.
+My way in programming started with courses in IT-Academy and continue in RS School. At this moment was created about 5 projects and implemented about 55 tasks at Codewars, algorithmic tasks and etс.
 
-I like to work and see the results of my work.
+In the near future I would like to improve my skills in JavaScript and to master TypeScript and React.
+
 
 >*"How will you be among the stars, if you don`t aim for them?"*
 
@@ -26,12 +27,18 @@ I like to work and see the results of my work.
 
 ## Code example
 ```
-function sum(x, y) {
-  return x + y;
+function isPrime(num) {
+    const number = Math.sqrt(num);
+    if (num <= 1) {
+        return false;
+    }
+    for (let i = 2; i <= number; i++) {
+        if (num % i === 0) {
+            return false;
+        }
+    }
+    return true;
 }
-
-let result = sum(5, 10);
-alert(result);
 ```
 
 ## Experience
@@ -52,8 +59,9 @@ alert(result);
 ## Education
   * Sep 2014-Jan 2022 — Belarusian National Technical University
 ## Courses
-  * June 2022-Present — RS School, "JavaScript/Front-end. Stage 0";
-  * Jan 2021-Apr 2021 — IT-Academy, "Website development with HTML, CSS & Javascript";
+  * Sep 2022 - Present — RS School, "JavaScript/Front-end. Stage 1";
+  * June 2022 - Aug 2022 — RS School, "JavaScript/Front-end. Stage 0";
+  * Jan 2021 - Apr 2021 — IT-Academy, "Website development with HTML, CSS & Javascript";
   * 2021 — Pro Retail, "Продажи H2H. Практические инструменты построения отношений с клиентами";
   * 2021 — Dmitry Shamko, "Моделирование B2B продаж".
 
