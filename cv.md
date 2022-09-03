@@ -1,4 +1,4 @@
-![Alesia Sokolovskaya](images/photo_cv.png?raw=true) 
+![Alesia Sokolovskaya](assets/img/photo_cv.png?raw=true) 
 # Alesia Sokolovskaya
 ## *Frontend Developer*
 ## Contacts
