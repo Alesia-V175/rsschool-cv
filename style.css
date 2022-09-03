@@ -346,13 +346,25 @@ footer {
 
 @media (max-width: 768px) {
 
-    .main-2 .profile {
-        min-height: 120px;
+    .main-content {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-1 {
+        width: 100%;
+        flex-direction: row;
     }
 
     .main-2 {
-        max-width: 50%;
+        min-width: 100%;
     }
+
+    /*.photo {*/
+    /*    width: 100%;*/
+    /*    flex: 3;*/
+    /*}*/
+
 
     .title {
         font-size: 30px;
