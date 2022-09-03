@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-    width: 85%;
+    width: 1180px;
     margin: 0 auto;
     background-color: #fff;
     line-height: 30px;
@@ -70,6 +70,8 @@ body {
     display: flex;
     align-items: stretch;
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .main-1 {
@@ -136,7 +138,6 @@ body {
     font-size: 20px;
     text-align: center;
     color: #016170;
-    /*padding: 0 5px 0 10px;*/
 }
 
 .languages-item i:before {
@@ -151,6 +152,7 @@ body {
 
 .main-2 {
     width: 70%;
+    min-width: 330px;
     display: flex;
     flex-direction: column;
     padding: 0 30px;
@@ -164,19 +166,18 @@ body {
     color: #032e36;
 }
 
+.text-about {
+    padding-left: 30px;
+}
+
 .title {
     font-size: 50px;
     line-height: 55px;
 }
 
-.main-2 .about p,
-.main-2 .code {
-    padding: 0 30px;
-    margin: 10px 0 10px;
-}
-
 .code {
     font-family: monospace;
+    padding: 0 30px 20px;
 }
 
 .education {
@@ -184,14 +185,13 @@ body {
 }
 
 .banner {
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    /*flex-wrap: nowrap;*/
-    /*!*width: 100%;*!*/
-    /*overflow: hidden;*/
-    /*padding: 0;*/
-    /*margin: 30px 0 0;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    padding: 0;
+    margin: 30px 0 0;
 }
 
 .project-item {
@@ -200,24 +200,39 @@ body {
     text-align: center;
 }
 
-
-.main-2 .projects a {
-    color: black;
+.projects-link {
     display: inline-block;
+    width: 80%;
+    height: 350px;
 }
 
-.main-2 .projects a:hover img {
+.projects-link:hover {
     box-shadow: 0 0 10px 10px rgba(201, 234, 238, 1);
 }
 
-.main-2 .projects img {
-    width: 550px;
-    height: 300px;
+.travel {
+    background: url("assets/img/travel.jpg") no-repeat;
+    background-size: cover;
 }
 
-.main-2 .projects p {
-    padding: 0;
-    margin: 0 0 10px;
+.momentum {
+    background: url("assets/img/momentum.jpg") no-repeat;
+    background-size: cover;
+}
+
+.photogallery {
+    background: url("assets/img/photogallery.jpg") no-repeat;
+    background-size: cover;
+}
+
+.eldritch {
+    background: url("assets/img/eldritch-horror.jpg") no-repeat;
+    background-size: cover;
+}
+
+.project-subtitle {
+    padding: 0 0 10px;
+    margin: 0;
 }
 
 .slick-prev {
@@ -281,5 +296,73 @@ footer {
     background: url("assets/img/github-logo.jpg") no-repeat;
     background-size: contain;
     padding: 0;
+}
+
+@media (max-width: 1200px) {
+
+    .container {
+        width: 99%;
+    }
+
+    .profile {
+        min-height: 280px;
+    }
+
+    .main-2 {
+        max-width: 67%;
+    }
+
+    .projects-link {
+        height: 245px;
+    }
+}
+
+@media (max-width: 920px) {
+
+    .main-2 .profile {
+        min-height: 167px;
+        padding: 20px;
+    }
+
+    .main-2 {
+        max-width: 58%;
+    }
+
+    title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .projects-link {
+        height: 245px;
+    }
+
+    .slick-prev,
+    .slick-next {
+        top: 100px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .main-2 .profile {
+        min-height: 120px;
+    }
+
+    .main-2 {
+        max-width: 50%;
+    }
+
+    .title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .subtitle-profession {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
 }
 
