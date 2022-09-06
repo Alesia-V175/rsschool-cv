@@ -4,6 +4,7 @@ html {
 
 body {
     margin: 0;
+    padding: 0;
     height: 100%;
     background: url("assets/img/flower2.jpg");
     background-size: contain;
@@ -18,6 +19,10 @@ body {
     background-color: rgba(255, 255, 255, 0.45);
 }
 
+.body-active {
+    overflow: hidden;
+}
+
 *,
 *::before,
 *::after {
@@ -29,9 +34,14 @@ body {
 .container {
     width: 1180px;
     margin: 0 auto;
+    padding: 0;
     background-color: #fff;
     line-height: 30px;
     box-shadow: 0 0 10px 10px rgba(221, 234, 238, 1);
+}
+
+.burger-menu-main {
+    display: none;
 }
 
 .nav {
@@ -74,6 +84,7 @@ body {
     margin: 0;
 }
 
+
 .main-1 {
     width: 30%;
     min-width: 320px;
@@ -81,6 +92,9 @@ body {
     display: flex;
     flex-direction: column;
     padding: 10px 20px;
+}
+.main-mobile {
+    display: none;
 }
 
 .photo img {
@@ -346,34 +360,92 @@ footer {
 
 @media (max-width: 768px) {
 
+   .nav {
+       display: none;
+   }
+
+    .burger-menu-main {
+        display: block;
+    }
+
     .main-content {
         flex-direction: column;
         width: 100%;
     }
 
-    .main-1 {
-        width: 100%;
-        flex-direction: row;
+    .desktop {
+        display: none;
     }
 
+    .main-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-1,
     .main-2 {
         min-width: 100%;
     }
 
-    /*.photo {*/
-    /*    width: 100%;*/
-    /*    flex: 3;*/
-    /*}*/
+    .photo img {
+        width: 200px;
+        height: 200px;
+    }
 
+    .profile {
+        min-height: auto;
+        text-align: center;
+    }
 
     .title {
         font-size: 30px;
         line-height: 35px;
     }
 
-    .subtitle-profession {
+    .subtitle-profession,
+    .subtitle {
         font-size: 20px;
         line-height: 24px;
+    }
+
+    .main-2 {
+        padding: 15px;
+    }
+
+    .text-about {
+        padding-left: 15px;
+    }
+
+    .projects-link {
+        width: 97%;
+        height: 185px;
+        background-position: center;
+    }
+
+    .slick-prev {
+        left: 10px;
+    }
+
+    .slick-next {
+        right: 21px;
+    }
+
+    .slick-prev::before, .slick-next::before {
+        color: #ffffff;
+    }
+
+    .code {
+        padding: 0 10px;
+        font-size: 15px;
+    }
+
+    .education {
+        padding-bottom: 0;
+    }
+
+    .footer-item:last-child {
+        font-size: 15px;
+        line-height: 20px;
     }
 
 }
